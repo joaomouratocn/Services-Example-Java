@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Service</string>
+    <string name="strInsertMessage">Insert Message Notifiation</string>
+    <string name="strText">Ao clicar neste botão séra iniciado um serviço em background on será impresso um contador com uma pausa de um em um segundo, no logCat</string>
+    <string name="strStartService">StartService</string>
+    <string name="strStopService">Stop Service</string>
+    <string name="strSrtartJob">Start Job</string>
+</resources>

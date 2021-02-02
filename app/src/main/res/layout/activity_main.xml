@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_service_foreground"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Foreground"
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_service_background"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Background"
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_service_job"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="JobIntent"
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_service_linked"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Linked"
+        tools:ignore="HardCodedText"/>
+
+</LinearLayout>
